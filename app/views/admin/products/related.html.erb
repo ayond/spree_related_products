@@ -43,8 +43,7 @@
 
   <%= content_for :head do %>
     <%= javascript_tag "var expand_variants = false;" %>
-    <%= javascript_include_tag '/admin/orders/edit.js' %>
-    <%= stylesheet_link_tag '/admin/edit_orders.css' %>
+    <%= javascript_include_tag 'admin/orders/edit.js' %>
 
     <script type="text/javascript">
       $("#add_related_product").live("click", function(){
